@@ -1,77 +1,77 @@
 [
     {
-        "input": 1,
+        "num": 1,
         "expectedOutput": "I",
-        "description": "Minimum valid input (edge case)"
+        "name": "Minimum valid num (edge case)"
     },
     {
-        "input": 3,
+        "num": 3,
         "expectedOutput": "III",
-        "description": "Checks repetition rule (I repeated 3 times max)"
+        "name": "Checks repetition rule (I repeated 3 times max)"
     },
     {
-        "input": 4,
+        "num": 4,
         "expectedOutput": "IV",
-        "description": "First subtractive case (4)"
+        "name": "First subtractive case (4)"
     },
     {
-        "input": 9,
+        "num": 9,
         "expectedOutput": "IX",
-        "description": "Subtractive case for 9"
+        "name": "Subtractive case for 9"
     },
     {
-        "input": 8,
+        "num": 8,
         "expectedOutput": "VIII",
-        "description": "Simple addition without subtractive notation"
+        "name": "Simple addition without subtractive notation"
     },
     {
-        "input": 40,
+        "num": 40,
         "expectedOutput": "XL",
-        "description": "Subtractive case in tens place"
+        "name": "Subtractive case in tens place"
     },
     {
-        "input": 90,
+        "num": 90,
         "expectedOutput": "XC",
-        "description": "Subtractive case for 90"
+        "name": "Subtractive case for 90"
     },
     {
-        "input": 400,
+        "num": 400,
         "expectedOutput": "CD",
-        "description": "Subtractive case in hundreds place"
+        "name": "Subtractive case in hundreds place"
     },
     {
-        "input": 900,
+        "num": 900,
         "expectedOutput": "CM",
-        "description": "Subtractive case for 900"
+        "name": "Subtractive case for 900"
     },
     {
-        "input": 58,
+        "num": 58,
         "expectedOutput": "LVIII",
-        "description": "Mixed case without subtractive in tens/ones"
+        "name": "Mixed case without subtractive in tens/ones"
     },
     {
-        "input": 1994,
+        "num": 1994,
         "expectedOutput": "MCMXCIV",
-        "description": "Multiple subtractive forms combined"
+        "name": "Multiple subtractive forms combined"
     },
     {
-        "input": 3749,
+        "num": 3749,
         "expectedOutput": "MMMDCCXLIX",
-        "description": "Complex number with thousands, hundreds, tens, and ones"
+        "name": "Complex number with thousands, hundreds, tens, and ones"
     },
     {
-        "input": 39,
+        "num": 39,
         "expectedOutput": "XXXIX",
-        "description": "Boundary before subtractive (ensures no invalid 'IL')"
+        "name": "Boundary before subtractive (ensures no invalid 'IL')"
     },
     {
-        "input": 41,
+        "num": 41,
         "expectedOutput": "XLI",
-        "description": "Boundary after subtractive case"
+        "name": "Boundary after subtractive case"
     },
     {
-        "input": 3999,
+        "num": 3999,
         "expectedOutput": "MMMCMXCIX",
-        "description": "Maximum constraint (edge case)"
+        "name": "Maximum constraint (edge case)"
     }
 ]
