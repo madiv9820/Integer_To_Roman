@@ -1,0 +1,77 @@
+[
+    {
+        "input": 1,
+        "expectedOutput": "I",
+        "description": "Minimum valid input (edge case)"
+    },
+    {
+        "input": 3,
+        "expectedOutput": "III",
+        "description": "Checks repetition rule (I repeated 3 times max)"
+    },
+    {
+        "input": 4,
+        "expectedOutput": "IV",
+        "description": "First subtractive case (4)"
+    },
+    {
+        "input": 9,
+        "expectedOutput": "IX",
+        "description": "Subtractive case for 9"
+    },
+    {
+        "input": 8,
+        "expectedOutput": "VIII",
+        "description": "Simple addition without subtractive notation"
+    },
+    {
+        "input": 40,
+        "expectedOutput": "XL",
+        "description": "Subtractive case in tens place"
+    },
+    {
+        "input": 90,
+        "expectedOutput": "XC",
+        "description": "Subtractive case for 90"
+    },
+    {
+        "input": 400,
+        "expectedOutput": "CD",
+        "description": "Subtractive case in hundreds place"
+    },
+    {
+        "input": 900,
+        "expectedOutput": "CM",
+        "description": "Subtractive case for 900"
+    },
+    {
+        "input": 58,
+        "expectedOutput": "LVIII",
+        "description": "Mixed case without subtractive in tens/ones"
+    },
+    {
+        "input": 1994,
+        "expectedOutput": "MCMXCIV",
+        "description": "Multiple subtractive forms combined"
+    },
+    {
+        "input": 3749,
+        "expectedOutput": "MMMDCCXLIX",
+        "description": "Complex number with thousands, hundreds, tens, and ones"
+    },
+    {
+        "input": 39,
+        "expectedOutput": "XXXIX",
+        "description": "Boundary before subtractive (ensures no invalid 'IL')"
+    },
+    {
+        "input": 41,
+        "expectedOutput": "XLI",
+        "description": "Boundary after subtractive case"
+    },
+    {
+        "input": 3999,
+        "expectedOutput": "MMMCMXCIX",
+        "description": "Maximum constraint (edge case)"
+    }
+]
