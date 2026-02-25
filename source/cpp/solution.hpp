@@ -1,3 +1,6 @@
+#define SOLUTION_HPP
+#ifdef SOLUTION_HPP
+
 #include <string>
 using namespace std;
 
@@ -7,3 +10,5 @@ public:
         return "";
     }
 };
+
+#endif
