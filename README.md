@@ -77,4 +77,19 @@ Use the **subtractive form**:
 
 ### 🔒 Constraints
 - `1 ≤ num ≤ 3999`
+
+## Approaches 🧠
+
+| **Feature / Criteria**         | [**Place-Value Dictionary** 🗂️](https://github.com/madiv9820/Integer_To_Roman/tree/Approach_01-Hashmaps)                                | [**Greedy Subtraction** 🚀](https://github.com/madiv9820/Integer_To_Roman/tree/Approach_02-Greedy)                             |
+| -------------------------- | --------------------------------------------------------- | ------------------------------------------------- |
+| **Strategy**               | Map each digit × place value to a predefined Roman symbol | Subtract largest possible Roman value iteratively |
+| **Ease of Understanding**  | Very readable; intuitive for beginners                    | Clean and concise; widely used in interviews      |
+| **Code Size**              | Larger lookup table required                              | Smaller; only 13 values & symbols                 |
+| **Processing**             | Decompose number into digits; prepend mapped symbols      | Greedy subtraction from largest to smallest value |
+| **Reversing Needed**       | Yes, if prepending is done manually                       | No, naturally builds in correct order             |
+| **Time Complexity**        | O(1) (digits ≤ 4 for numbers ≤ 3999)                      | O(1) (at most ~15 iterations for numbers ≤ 3999)  |
+| **Space Complexity**       | O(1) + lookup table size                                  | O(1) + small result string                        |
+| **Interview-Friendliness** | Easy to explain; verbose                                  | Very common & elegant approach                    |
+
+
 ---
